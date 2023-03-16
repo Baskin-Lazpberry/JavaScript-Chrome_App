@@ -1,17 +1,3 @@
-* {
-    user-select:none;
-}
-
-body {
-    background-color: beige;
-}
-
-h1 {
-    color: orange;
-    transition: color .5s ease-in-out;
-}
-
-.active {
-    color: tomato;
-    transition:color .5s ease-in-out;
+.hidden {
+    display: none;
 }
