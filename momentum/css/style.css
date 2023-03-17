@@ -5,3 +5,47 @@
 .tomato {
     color: tomato;
 }
+
+.center {
+    text-align: center;
+}
+
+.top {
+    position: fixed;
+    top: 250;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 300 auto;
+}
+
+.verticalCenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
+#bg-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: absolute;
+    width: 105%;
+    height: 105%;
+    filter: blur(10px);
+    z-index: -1;
+} 
+
+* {
+    color: white;
+    text-shadow: black 0px 0px 5px;
+}

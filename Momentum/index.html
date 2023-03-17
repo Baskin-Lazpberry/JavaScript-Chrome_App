@@ -7,8 +7,10 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Momentum</title>
 </head>
+
 <body>
-    <form id="login-form" class="hidden">
+    <div id="bg-image"></div>
+    <form id="login-form" class="hidden center verticalCenter">
         <input 
         required
         maxlength="15"
@@ -17,20 +19,22 @@
         />
         <button>Log In</button>
     </form>
-    <h2 id="clock">
+    <h2 id="clock" class="top center">
         <span id="hour">00</span>
         <span id="colon">:</span>
         <span id="minute">00</span>
     </h2>
-    <h1 id="greeting" class="hidden"></h1>
-    <div id="classic">
-        <span></span>
-        <br>
-        <span></span>
+    <h1 id="greeting" class="hidden center verticalCenter",></h1>
+    <div class="center">
+        <div id="classic" class="bottom">
+            <p></p>
+            <p></p>
+        </div>
     </div>
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/classics.js"></script>
     <script src="js/background.js"></script>
 </body>
+
 </html>

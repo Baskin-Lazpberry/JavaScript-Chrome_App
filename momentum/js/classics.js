@@ -86,8 +86,8 @@ const classics = [
     },
 ]
 
-const title = document.querySelector("#classic span:first-child");
-const composer = document.querySelector("#classic span:last-child");
+const title = document.querySelector("#classic p:first-child");
+const composer = document.querySelector("#classic p:last-child");
 
 const todaysClassic = classics[Math.floor(Math.random() * classics.length)];
 
