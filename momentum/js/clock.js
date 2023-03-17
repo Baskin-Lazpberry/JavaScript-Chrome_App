@@ -8,10 +8,9 @@ const TOGGLE_COLOR = "tomato"
 let num = 5;
 function getClock() {
     const date = new Date();
-    const hours = String(date.getHours()).padStart(2, "0");
-    const minutes = String(date.getMinutes()).padStart(2, "0");
-    hour.innerText = hours;
-    minute.innerText = minutes;
+
+    hour.innerText = String(date.getHours()).padStart(2, "0");
+    minute.innerText = String(date.getMinutes()).padStart(2, "0");
     colon.classList.toggle(TOGGLE_COLOR);
 }
 
