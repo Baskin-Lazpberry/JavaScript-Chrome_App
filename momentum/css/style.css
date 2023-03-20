@@ -12,10 +12,11 @@
 
 .top {
     position: fixed;
-    top: 250;
+    top: 200px;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 300 auto;
+    font-size:xx-large;
 }
 
 .verticalCenter {
@@ -41,6 +42,15 @@
     transform: translate(-50%, -50%);
     margin: 0px auto;
     display:grid;
+}
+
+.topRight {
+    position: fixed;
+    top: 30px;
+    right: 0px;
+    transform: translate(-50%, -50%);
+    margin: 0px auto;
+    size:100px;
 }
 
 ul {
